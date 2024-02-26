@@ -1,0 +1,59 @@
+
+<!-- For this assignment I have chosen to create a portfolio website for a Photography/Videography business-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- Using the company name as the title is a best practice -->
+	<title> Vinnie's Videography </title>
+	<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<h1> Vinnie's Videography </h1>
+		
+			<nav>
+				<a href="index.html"> <b> Home </b> </a>
+				&nbsp;
+				<a href="booking.html"> <b> Booking Info </b> </a>
+				&nbsp;
+				<a href="gallery.html"> <b> Gallery </b> </a>
+				&nbsp;
+			</nav>
+			
+			<main>
+				<h2> It's Your Time to Shine </h2>
+				<p> 
+					Here at Vinnie's Videography, we provide professional,
+					photography/ videography services such as:
+				</p>
+				
+				<!-- unordered list of services-->
+				<ul>
+					<li> Weddings </li>
+					<li> Birthdays </li>
+					<li> Commercials for Businesses </li>
+					<li> Documentaries </li>
+					<li> Photo Shoots </li>
+					<li> Community Events </li>
+					<li> Live Streaming Services </li>
+				</ul>
+				
+				<!-- contact information -->
+				<div>
+					Vincent Maduro
+					<br>
+					5555 Whatever Ave.
+					<br>
+					Middletown, CT 95555
+					<br>
+					888-555-5555
+				</div>
+			</main>
+			
+			<footer>
+				<br>
+				<small> <i> Copyright &copy 2022 Vinnie's Videography </i> </small>
+			</footer>
+	
+	</body>
+</html>

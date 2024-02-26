@@ -1,0 +1,61 @@
+
+<!-- For this assignment, I have chosen to create a portfolio website for a Photography/Videography business-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- Using the company name as the title is a best practice -->
+	<title> Vinnie's Videography </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="color.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<header> <h1> Vinnie's Videography </h1> </header>
+		
+			<nav>
+				<a href="index.html"> <b> Home </b> </a>
+				&nbsp;
+				<a href="packages.html"> <b> Packages </b> </a>
+				&nbsp;
+				<a href="gallery.html"> <b> Gallery </b> </a>
+				&nbsp;
+				<a href="contact.html"> <b> Contact </b> </a>
+				&nbsp;
+			</nav>
+			
+			<main>
+				<!--i used the "autoplay" and "loop" attributes to make the video start as soon as the page loads,
+				and continue looping once finished-->
+				<video autoplay loop controls="controls" poster="Wedding Trailer.mp4">
+					<source src="Wedding Trailer.mp4" type="video/mp4">
+					
+					<embed type="application/x-shockwave-flash"
+					  src="Wedding Trailer.mp4"
+					  quality="high"
+					  
+					  title="Wedding Trailer">
+				</video>
+
+				<h2> It's Your Time to Shine </h2>
+
+				<!-- this project is a website for a videographer, so its a good idea to grab the viewer's attention and to showcase their work.
+					I embedded a video from my vimeo account as a placeholder, but if this were a website for another videographer, 
+					most of the videos and images would obviosly be replaced by their own images and videos. -->
+				<div> <iframe src="https://player.vimeo.com/video/834612875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+					width=100% height=720px frameborder="0" &autoplay=1; title="Hubbard park"></iframe>
+					<!-- the video is privated on my account, so adding a fallback that links to my profile wont do anything. 
+					of course, this would be changed if i was using content from a videographer's youtube channel-->
+				</div>
+
+				
+				
+			</main>
+			
+			<footer>
+				<br>
+				<small> <i> Copyright &copy; 2024 Vinnie's Videography </i> </small>
+			</footer>
+	
+	</body>
+</html>

@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- Using the company name as the title is a best practice -->
+	<title>Spotlighttime Video</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="color.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<header> <h1> Vinnie's Videography </h1> </header>
+		
+			<nav>
+				<a href="index.html"> <b> Home </b> </a>
+				&nbsp;
+				<a href="packages.html"> <b> Packages </b> </a>
+				&nbsp;
+				<a href="gallery.html"> <b> Gallery </b> </a>
+				&nbsp;
+                <a href="contact.html"> <b> Contact </b> </a>
+				&nbsp;
+			</nav>
+			
+			<main>
+				<div>
+					<h2>Get in touch, we'd love to hear from you!</h2><br>
+
+                    <!--this message is not appearing for some reason, ill have to fix that later-->
+					<h4>Required fields are marked with an asterisk *</h4>
+
+				</div>
+				
+				<div>
+					<!-- Simple contact form-->
+					<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+						<label for="myFName">First Name:</label>
+						<input type="text" name="myFName" id="myFName" required="required">
+
+						<label for="myLName">Last Name:</label>
+						<input type="text" name="myLName" id="myLName" required="required">
+
+						<label for="myEmail">E-mail:</label>
+						<input type="email" name="myEmail" id="myEmail" required="required">
+						
+						<label for="myNumber">Phone Number:</label>
+						<input type="number" name="myNumber" id="myNumber" maxlength="12">
+
+						<label for="myDate">Date of Event</label>
+						<input type="date" name="myDate"id="myDate">
+
+						<label for="myComments">Please Specify the Package of Your Interest:</label>
+						<textarea name="myComments" id="myComments" rows="2" cols="30"></textarea>
+						
+						<input id="mySubmit" type="submit" value="Submit">
+
+					</form>
+				</div>
+				<!-- contact information -->
+				<div>
+					Vincent Maduro
+					<br>
+					5555 Whatever Ave.
+					<br>
+					Middletown, CT 95555
+					<br>
+					888-555-5555
+				</div>
+			</main>
+			
+			<footer>
+				<br>
+				<small> <i> Copyright &copy; 2024 Vinnie's Videography </i> </small>
+			</footer>
+	
+	</body>
+</html>
